@@ -92,14 +92,14 @@ nav p {
 }
 
 h2 {
-  margin: 5rem 0 2rem 2rem;
+  margin: 5rem 0 3rem 2rem;
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
 }
 
 .container {
-  max-width: 90%;
+  max-width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,6 +162,7 @@ h2 {
     max-width: 500px;
   }
   .container {
+    max-width: 85%;
     flex-direction: row;
   }
   .card {
@@ -170,6 +171,12 @@ h2 {
   }
   .card img {
     width: 100%;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
   }
 }
 
@@ -208,7 +215,11 @@ h2 {
   }
 
   h2 {
-    margin: 5rem 0 3rem 72px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000;
+    margin: 5rem 0 4rem 72px;
   }
 }
 
